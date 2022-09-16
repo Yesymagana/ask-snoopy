@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Gloria+Hallelujah&family=Gochi+Hand&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/main.js"></script>
+    <title>Ask Snoopy Anything</title>
+</head>
+<body> 
+
+    <div class="project">
+
+        <!-- Page title: Ask Snoopy Anything -->
+        <header>
+            <h1>ASK <span>SNOOPY</span> ANYTHING</h1>
+        </header>
+
+        <!-- Main image = Snoopy with typewriter -->
+        <div class="ball">
+            <img id="typewriter" src="https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.upp-prod-eu.s3.amazonaws.com%2Fe5e9d252-dcbc-11e8-9f04-38d397e6661c?fit=scale-down&source=next&width=700" alt="snoopy-with-typewriter">
+        </div>
+
+        <!-- This is where the fortune will appear -->
+        <div id="fortune"></div>
+
+        <!-- This is where the user inputs their question -->
+        <div>
+            <input class="question-box" type="text" placeholder="Type your question here">
+        </div>
+
+        <!-- Button: will cause the image to shake and the fortune to appear once clicked -->
+        <div class="button">
+            <button id="question" onClick="shake()">ASK ME ANYTHING 🌟</button>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; Yesy Magaña 2022 🌟</p>
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>
