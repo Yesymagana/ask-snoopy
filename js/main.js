@@ -47,8 +47,3 @@ function getFortune() {
 
 
 
-// reset after q & a
-    // original image
-    // no response
-    // question field blank again
-    // button -- ask another question
